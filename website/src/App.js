@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './components/Hero'
+import heroImage from './assets/heroImage.webp'
+import Toolbar from './components/Toolbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Toolbar />
+      <Hero image={heroImage} name='Perry Chambers Jr' title='Software Engineer'/>
+      {/* <About bio='Bio' objective='objective' description='description'/> */}
+      <Footer />
     </div>
   );
 }
