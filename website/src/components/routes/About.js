@@ -26,7 +26,7 @@ const About = () => {
                         tools that you can find in my portfolio.
                     </Card.Body>
             </Card>
-
+            {/* // FRONT END */}
             <Card>
                 <Card.Header className='text-center'>Front-End Development Exposure</Card.Header>
                 {/* <Card.Img className='cardImg' variant='top'/> */}
@@ -61,6 +61,51 @@ const About = () => {
                                     <ListGroup.Item>React Router</ListGroup.Item>
                                     <ListGroup.Item>React-Bootstrap</ListGroup.Item>
                                     <p>React was used to create this website</p>
+                                </ListGroup>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header className='text-center'>
+                            <Accordion.Toggle as={Button} variant='link' eventKey='2'>
+                                HTML/CSS/JS
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey='2'>
+                            <Card.Body>Hello!</Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
+            </Card>
+            {/* Back END */}
+            <Card>
+                <Card.Header className='text-center'>Back-End Development Exposure</Card.Header>
+                {/* <Card.Img className='cardImg' variant='top'/> */}
+                <Accordion defaultActiveKey='0'>
+                    <Card>
+                        <Card.Header className='text-center'>
+                            <Accordion.Toggle as={Button} variant='link' eventKey='0'>
+                                Spring
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey='0'>
+                            <Card.Body>
+                                <ListGroup className='text-center'>
+                                    <p>Some bs here</p>
+                                </ListGroup>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header className='text-center'>
+                            <Accordion.Toggle as={Button} variant='link' eventKey='1'>
+                                Node
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey='1'>
+                            <Card.Body>
+                                <ListGroup className='text-center'>
+                                    <p>Some bs here</p>
                                 </ListGroup>
                             </Card.Body>
                         </Accordion.Collapse>
