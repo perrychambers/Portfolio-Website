@@ -15,36 +15,35 @@ const About = () => {
     <div className='aboutInfo'>
         <Styled>
             <Card>
-                <Card.Header className='text-center'>About Me</Card.Header>
+                <Card.Header className='text-center'>Background</Card.Header>
                     <Card.Body className='text-center'>
-                        I am a new Graduate with a B.S. in Software Engineering from the Pennsylvania State University.
+                        <p> I am a new Graduate with a B.S. in Software Engineering with a minor in Computer Science. from the Pennsylvania State University. </p>
+                        <p>As a software engineer, I enjoy turning an idea into a reality through the use of good code and design. 
+                            My goal is to build scalable and efficient applications that work in the background, while combining it with a user friendly interface and engaging experience.
+                        </p>
+                        <p>When I'm not coding, I enjoy being outside whether that's hiking, exploring or snowboarding. I also have a deep passion for cooking and trying new things.</p>
 
-                        My friends and peers would describe me as a hard worker that strives to complete a task to the best of my
-                        ability and efficiently as I can be.
-
-                        I am seeking employment as a Software Engineer in the Web Development Field. I have a good amount of experience with modern Development
-                        tools that you can find in my portfolio.
                     </Card.Body>
             </Card>
             {/* // FRONT END */}
             <Card>
-                <Card.Header className='text-center'>Front-End Development Exposure</Card.Header>
+                <Card.Header className='text-center'>Skills</Card.Header>
                 {/* <Card.Img className='cardImg' variant='top'/> */}
-                <Accordion defaultActiveKey='0'>
+                <Accordion>
                     <Card>
                         <Card.Header className='text-center'>
                             <Accordion.Toggle as={Button} variant='link' eventKey='0'>
-                                Vue
+                                Languages
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey='0'>
                             <Card.Body>
                                 <ListGroup className='text-center'>
-                                    <ListGroup.Item>Vue 2</ListGroup.Item>
-                                    <ListGroup.Item>Vue Router</ListGroup.Item>
-                                    <ListGroup.Item>Vuex State Management</ListGroup.Item>
-                                    <ListGroup.Item>Vuetify</ListGroup.Item>
-                                    <p className='text-center'>Primarily used during my Senior Capstone Project</p>
+                                    <ListGroup.Item>JavaScript (ES6)</ListGroup.Item>
+                                    <ListGroup.Item>HTML/CSS</ListGroup.Item>
+                                    <ListGroup.Item>Java</ListGroup.Item>
+                                    <ListGroup.Item>C/C++</ListGroup.Item>
+                                    <ListGroup.Item>Python</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Accordion.Collapse>
@@ -52,15 +51,18 @@ const About = () => {
                     <Card>
                         <Card.Header className='text-center'>
                             <Accordion.Toggle as={Button} variant='link' eventKey='1'>
-                                React
+                                Frameworks
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey='1'>
                             <Card.Body>
                                 <ListGroup className='text-center'>
-                                    <ListGroup.Item>React Router</ListGroup.Item>
-                                    <ListGroup.Item>React-Bootstrap</ListGroup.Item>
-                                    <p>React was used to create this website</p>
+                                    <ListGroup.Item>Vue (Vuex, Router, Vuetify)</ListGroup.Item>
+                                    <ListGroup.Item>React (Router)</ListGroup.Item>
+                                    <ListGroup.Item>Node</ListGroup.Item>
+                                    <ListGroup.Item>Spring</ListGroup.Item>
+                                    <ListGroup.Item>Express</ListGroup.Item>
+                                    <ListGroup.Item>Spring</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Accordion.Collapse>
@@ -68,63 +70,43 @@ const About = () => {
                     <Card>
                         <Card.Header className='text-center'>
                             <Accordion.Toggle as={Button} variant='link' eventKey='2'>
-                                HTML/CSS/JS
+                                Tools
                             </Accordion.Toggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey='2'>
-                            <Card.Body>Hello!</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                </Accordion>
-            </Card>
-            {/* Back END */}
-            <Card>
-                <Card.Header className='text-center'>Back-End Development Exposure</Card.Header>
-                {/* <Card.Img className='cardImg' variant='top'/> */}
-                <Accordion defaultActiveKey='0'>
-                    <Card>
-                        <Card.Header className='text-center'>
-                            <Accordion.Toggle as={Button} variant='link' eventKey='0'>
-                                Spring
-                            </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey='0'>
                             <Card.Body>
                                 <ListGroup className='text-center'>
-                                    <p>Some bs here</p>
-                                </ListGroup>
-                            </Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    <Card>
-                        <Card.Header className='text-center'>
-                            <Accordion.Toggle as={Button} variant='link' eventKey='1'>
-                                Node
-                            </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey='1'>
-                            <Card.Body>
-                                <ListGroup className='text-center'>
-                                    <p>Some bs here</p>
-                                </ListGroup>
-                            </Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    <Card>
-                        <Card.Header className='text-center'>
-                            <Accordion.Toggle as={Button} variant='link' eventKey='2'>
-                                HTML/CSS/JS
-                            </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey='2'>
-                            <Card.Body>Hello!</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                </Accordion>
-            </Card>
+                                    <ListGroup.Item>Git & Github</ListGroup.Item>
+                                    <ListGroup.Item>Chrome DevTools</ListGroup.Item>
+                                    <ListGroup.Item>Vue, React DevTools</ListGroup.Item>
+                                    <ListGroup.Item>MongoDB</ListGroup.Item>
+                                    <ListGroup.Item>Postman</ListGroup.Item>
+                                    <ListGroup.Item>SQL, MySQL</ListGroup.Item>
+                                    <ListGroup.Item>AWS (Lambda, API Gateway, S3, CodePipeline) </ListGroup.Item>
 
+                                </ListGroup>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Card.Header className='text-center'>
+                            <Accordion.Toggle as={Button} variant='link' eventKey='2'>
+                                Design
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey='2'>
+                            <Card.Body>
+                                <ListGroup className='text-center'>
+                                    <ListGroup.Item>Photoshop</ListGroup.Item>
+                                    <ListGroup.Item>Illustrator</ListGroup.Item>
+                                    <ListGroup.Item>Prototyping</ListGroup.Item>
+                                </ListGroup>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
+            </Card>
         </Styled>
-
     </div>
     )
 

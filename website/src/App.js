@@ -8,7 +8,7 @@ import NotFound from './components/routes/NotFound'
 import Layout from './components/Layout'
 import NavigationBar from './components/NavigationBar'
 import Jumbotron from './components/Jumbotron'
-import Footer from './components/Footer'
+//import Footer from './components/Footer'
 import Portfolio from './components/routes/Portfolio'
 
 // const divStyle = {
@@ -31,7 +31,7 @@ function App() {
             </Switch>
           </Router>
         </Layout>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
