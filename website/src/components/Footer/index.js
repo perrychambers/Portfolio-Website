@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, SocialMedia, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, SocialMediaWrap} from './FooterElements'
+import { FooterContainer, FooterWrap, SocialMedia, WebsiteRights, SocialIcons, SocialIconLink, SocialMediaWrap} from './FooterElements'
 import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
@@ -8,7 +8,6 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/Portfolio-Website'>PC</SocialLogo>
                         <WebsiteRights>Perry Chambers Jr © {new Date().getFullYear()} </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='//www.facebook.com/perry.chambers.7/' target='_blank' aria-label='Facebook'>

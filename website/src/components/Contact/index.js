@@ -3,6 +3,8 @@ import {Container, FormWrap, Icon, FormContent, Form, FormH1, FormInput, FormLab
 import { Button } from '../ButtonElement'
 
 const Contact = ({id, primary, dark}) => {
+
+
     return (
         <Container id={id}>
             <FormWrap>
@@ -24,7 +26,7 @@ const Contact = ({id, primary, dark}) => {
                             offset={-80}
                             primary={primary ? 1 : 0 }
                             dark={dark ? 1 : 0}
-                            // dark2={dark2 ? 1 : 0}
+                            onClick={() => { alert('Section under development.')}}
                         >Submit</Button>
                     </Form>
                 </FormContent>

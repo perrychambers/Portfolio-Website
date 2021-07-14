@@ -14,8 +14,7 @@ export const Container = styled.div`
         rgba(1, 147, 86, 1) 0%,
         rgba(10, 201, 122, 1) 100%
     ); */
-    /* background: #fff; */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(172,172,172,1) 48%, rgba(255,255,255,1) 100%);
+    background: #fff;
 `
 
 export const FormWrap = styled.div`

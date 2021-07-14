@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-    height: 1650px;
+    height: 1750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,9 +62,9 @@ export const ProjectsIcon = styled.img`
 `
 
 export const ProjectsH1 = styled.h1`
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     color: #fff;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
