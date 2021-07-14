@@ -15,13 +15,19 @@ const Sidebar = ({isOpen, toggle }) => {
                         onClick={toggle}>
                             About
                         </SidebarLink>
-                        <SidebarLink to='skills' onClick={toggle}>
+                        <SidebarLink to='skills' onClick={toggle}
+                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                        >
                             Skills
                         </SidebarLink>
-                        <SidebarLink to='projects' onClick={toggle}>
+                        <SidebarLink to='projects' onClick={toggle}
+                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                        >
                             Projects
                         </SidebarLink>
-                        <SidebarLink to='contact' onClick={toggle}>
+                        <SidebarLink to='contact' onClick={toggle}
+                        smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                        >
                             Contact
                         </SidebarLink>
                     </SidebarMenu>

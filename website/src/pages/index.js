@@ -22,7 +22,7 @@ const Home = () => {
             <AboutSection {...homeObjOne} />
             <AboutSection {...homeObjTwo} />
             <AboutSection {...homeObjThree} />
-            {/* <Contact /> */}
+            <Contact />
             <Footer />
         </>
     )

@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <Container>
             <FormWrap>
-                <Icon to='/'>PC</Icon>
+                <Icon to='/'></Icon>
                 <FormContent>
                     <Form action='#'>
                         <FormH1>Contact Me</FormH1>
