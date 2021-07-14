@@ -6,6 +6,7 @@ import AboutSection from '../components/AboutSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/AboutSection/data'
 import Footer from '../components/Footer/index'
 import Contact from '../components/Contact'
+import Projects from '../components/Projects'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,8 +22,9 @@ const Home = () => {
             <HeroSection/>
             <AboutSection {...homeObjOne} />
             <AboutSection {...homeObjTwo} />
-            <AboutSection {...homeObjThree} />
-            <Contact  id={'contact'}/>
+            {/* <AboutSection {...homeObjThree} /> */}
+            <Projects />
+            <Contact dark={true} primary={true} darkText={false} id={'contact'}/>
             <Footer />
         </>
     )

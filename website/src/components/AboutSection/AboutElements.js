@@ -6,6 +6,7 @@ export const AboutContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 10px 0;
+        height: 1100px;
     }
 `
 
@@ -91,6 +92,7 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    z-index: 0;
 `
 
 export const Img = styled.img`
