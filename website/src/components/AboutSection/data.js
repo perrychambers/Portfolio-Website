@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'About Myself',
-    headline: 'I am a Graduate with a B.S. in Software Engineering and a minor in Computer Science. from the Pennsylvania State University.',
+    headline: 'I am a Graduate with a B.S. in Software Engineering and a minor in Computer Science from the Pennsylvania State University.',
     buttonLabel: 'Skills',
     description: `As a software engineer, I enjoy turning an idea into a reality through the use of good code and design. My goal is to build scalable and efficient applications that work in the background, while combining it with a user friendly interface and engaging experience. When I'm not coding, I enjoy being outside whether that's hiking, exploring or snowboarding. I also have a deep passion for cooking and trying new things`,
     imgStart: true,

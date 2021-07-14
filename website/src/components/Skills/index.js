@@ -6,8 +6,8 @@ import { SkillsContainer, SkillsWrap, SkillsTitleContainer, SkillsTitleWrapper,
 const Skills = () => {
     return (
         <SkillsContainer id='skills'>
-            <SkillsText>Technical Skills</SkillsText>
             <SkillsWrap>
+            <SkillsText>Technical Skills</SkillsText>
                 <SkillsTitleContainer>
                     <SkillsTitleWrapper>
                         <SkillsItems>

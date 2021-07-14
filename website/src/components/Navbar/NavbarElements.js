@@ -30,7 +30,8 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkRouter)`
-    color: #fff;
+    /* color: #fff; */
+    color: ${({scrollNav}) => (scrollNav ? '#01bf71' : '#fff')};
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
