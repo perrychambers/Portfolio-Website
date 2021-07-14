@@ -1,9 +1,9 @@
 import React from 'react'
 import {Container, FormWrap, Icon, FormContent, Form, FormH1, FormInput, FormLabel} from './ContactElements'
 
-const Contact = () => {
+const Contact = ({id}) => {
     return (
-        <Container>
+        <Container id={id}>
             <FormWrap>
                 <Icon to='/'></Icon>
                 <FormContent>

@@ -18,11 +18,11 @@ const Home = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <NavBar toggle={toggle}/>
-            <HeroSection />
+            <HeroSection/>
             <AboutSection {...homeObjOne} />
             <AboutSection {...homeObjTwo} />
             <AboutSection {...homeObjThree} />
-            <Contact />
+            <Contact  id={'contact'}/>
             <Footer />
         </>
     )
